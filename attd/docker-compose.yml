@@ -1,0 +1,11 @@
+services:
+  attd-gen2:
+    build: .
+    image: snusnu/attd-gen2:3.1.1
+    container_name: attd-gen2
+    restart: "unless-stopped"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 128M

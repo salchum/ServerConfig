@@ -1,0 +1,7 @@
+requests 
+python-dotenv 
+telegram 
+pyotp 
+qrcode 
+python-telegram-bot==13.14
+
