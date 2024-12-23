@@ -1,0 +1,9 @@
+fastapi[standard]
+sqlalchemy
+pytz
+pymysql
+sshtunnel
+gunicorn
+pyotp
+qrcode
+omymodels

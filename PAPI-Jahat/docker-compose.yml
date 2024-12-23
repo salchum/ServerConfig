@@ -1,0 +1,13 @@
+services:
+  papi-jahat:
+    build: .
+    image: snusnu/papi-jahat:0.2.0
+    container_name: papi-jahat
+    ports:
+      - 8888:8000
+    restart: "unless-stopped"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 128M
